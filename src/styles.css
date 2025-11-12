@@ -1,0 +1,16 @@
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.diagram-container {
+  flex: 1;
+}
+
+.sidebar {
+  width: 300px;
+  background: #fafafa;
+  border-left: 1px solid #ddd;
+  overflow-y: auto;
+}
