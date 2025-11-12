@@ -1,5 +1,4 @@
 
-```jsx
 import React, { useState } from 'react'
 import Modal from 'react-modal'
 import { useFlow } from '../context/FlowContext'
