@@ -15,3 +15,25 @@ Note:
 3. Please submit your assignment only after you have thoroughly reviewed and are satisfied with your work.
 4. Any submissions made after the deadline will not be considered. Kindly make sure to submit before the deadline.
 Save the completed work in a single file (e.g., GitHub account or a ZIP file containing your work or any supporting files).
+
+
+
+## README
+
+
+### Overview
+A React app using React Flow to render a dynamic diagram from metadata (JSON). Features:
+- Dynamic nodes & edges from metadata
+- Add / edit / delete nodes and edges via a sidebar (modal-style)
+- Drag, pan, zoom, select nodes
+- State persisted in React Context (can be swapped for Redux)
+- Export / import metadata JSON
+
+
+### Install & Run
+1. Create a Vite React project: `npm create vite@latest my-flow-app -- --template react`
+2. `cd my-flow-app`
+3. Install deps: `npm install react-flow-renderer@11 react-modal uuid`
+- (If using React Flow v14+, change import names accordingly)
+4. Replace `src` contents with the files below.
+5. Run: `npm install && npm run dev`
